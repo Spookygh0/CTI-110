@@ -30,7 +30,7 @@ num_grades = int(input("How many grades will you enter? "))
 grades_list = []
 
 for value in range(num_grades):
-    grade = int(input(f"Enter grade #(value+1): "))
+    grade = int(input(f"Enter grade #{value+1}: "))
     if grade >= 0 and grade <= 100:
         grades_list.append(grade)
     else:
